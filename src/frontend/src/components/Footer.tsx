@@ -203,7 +203,7 @@ export default function Footer() {
             zIndex: 1,
           }}
         >
-          Built with love using{" "}
+          Built with love using
           <a
             href={`https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(typeof window !== "undefined" ? window.location.hostname : "")}`}
             target="_blank"
@@ -220,7 +220,7 @@ export default function Footer() {
               (e.currentTarget as HTMLAnchorElement).style.color = "#C9A96E";
             }}
           >
-            caffeine.ai
+      
           </a>
         </div>
       </div>
