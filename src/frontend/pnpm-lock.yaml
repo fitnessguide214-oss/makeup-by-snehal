@@ -1,0 +1,86 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      react:
+        specifier: ~19.1.0
+        version: 19.1.7
+      react-dom:
+        specifier: ~19.1.0
+        version: 19.1.7(react@19.1.7)
+      react-router-dom:
+        specifier: ^7.15.1
+        version: 7.15.1(react-dom@19.1.7(react@19.1.7))(react@19.1.7)
+
+packages:
+
+  cookie@1.1.1:
+    resolution: {integrity: sha512-ei8Aos7ja0weRpFzJnEA9UHJ/7XQmqglbRwnf2ATjcB9Wq874VKH9kfjjirM6UhU2/E5fFYadylyhFldcqSidQ==}
+    engines: {node: '>=18'}
+
+  react-dom@19.1.7:
+    resolution: {integrity: sha512-hE2iTlqZDmmCBRpmXbzHJLngNeHfLtdMA1qp4eDreMgdtbCgFAWGJhvD2u1KF0UQe5W5y2cQkpjAYTGhXbil4A==}
+    peerDependencies:
+      react: ^19.1.7
+
+  react-router-dom@7.15.1:
+    resolution: {integrity: sha512-AzF62gjY6U9rkMq4RfP/r2EVtQ7DMfNMjyOp/flLTCrtRylLiK4wT4pSq6O8rOXZ2eXdZYJPEYe+ifomiv+Igg==}
+    engines: {node: '>=20.0.0'}
+    peerDependencies:
+      react: '>=18'
+      react-dom: '>=18'
+
+  react-router@7.15.1:
+    resolution: {integrity: sha512-R8rl9HhgikFYoPJymnUtPXWbnDb3oget6lQnfIoupbt61aT9aOhRkDsY2XRhZRyX1Z/8a5sL74fXmFNm3NRK5A==}
+    engines: {node: '>=20.0.0'}
+    peerDependencies:
+      react: '>=18'
+      react-dom: '>=18'
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
+
+  react@19.1.7:
+    resolution: {integrity: sha512-sExZFfembjCLTr9ran4JS8W2Z9m3d0lbrOAuFreAR8krpw76YnK+lnzlkO4OvFjEuHzKc8rw94h0EAVSh/Gn+w==}
+    engines: {node: '>=0.10.0'}
+
+  scheduler@0.26.0:
+    resolution: {integrity: sha512-NlHwttCI/l5gCPR3D1nNXtWABUmBwvZpEQiD4IXSbIDq8BzLIK/7Ir5gTFSGZDUu37K5cMNp0hFtzO38sC7gWA==}
+
+  set-cookie-parser@2.7.2:
+    resolution: {integrity: sha512-oeM1lpU/UvhTxw+g3cIfxXHyJRc/uidd3yK1P242gzHds0udQBYzs3y8j4gCCW+ZJ7ad0yctld8RYO+bdurlvw==}
+
+snapshots:
+
+  cookie@1.1.1: {}
+
+  react-dom@19.1.7(react@19.1.7):
+    dependencies:
+      react: 19.1.7
+      scheduler: 0.26.0
+
+  react-router-dom@7.15.1(react-dom@19.1.7(react@19.1.7))(react@19.1.7):
+    dependencies:
+      react: 19.1.7
+      react-dom: 19.1.7(react@19.1.7)
+      react-router: 7.15.1(react-dom@19.1.7(react@19.1.7))(react@19.1.7)
+
+  react-router@7.15.1(react-dom@19.1.7(react@19.1.7))(react@19.1.7):
+    dependencies:
+      cookie: 1.1.1
+      react: 19.1.7
+      set-cookie-parser: 2.7.2
+    optionalDependencies:
+      react-dom: 19.1.7(react@19.1.7)
+
+  react@19.1.7: {}
+
+  scheduler@0.26.0: {}
+
+  set-cookie-parser@2.7.2: {}
